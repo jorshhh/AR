@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F991CE6DDF1BBA8E4E73632 /* libPods-Mario.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FBB3C16E52CB613FFFC0CE /* libPods-Mario.a */; };
 		F57B7FB421808B44003B6F2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B7FB321808B44003B6F2F /* AppDelegate.m */; };
 		F57B7FB621808B44003B6F2F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B7FB521808B44003B6F2F /* art.scnassets */; };
-		F57B7FB921808B44003B6F2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B7FB821808B44003B6F2F /* ViewController.m */; };
-		F57B7FBC21808B44003B6F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57B7FBA21808B44003B6F2F /* Main.storyboard */; };
+		F57B7FB921808B44003B6F2F /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B7FB821808B44003B6F2F /* ARViewController.m */; };
 		F57B7FBE21808B45003B6F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B7FBD21808B45003B6F2F /* Assets.xcassets */; };
 		F57B7FC121808B45003B6F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57B7FBF21808B45003B6F2F /* LaunchScreen.storyboard */; };
 		F57B7FC421808B45003B6F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B7FC321808B45003B6F2F /* main.m */; };
+		F57B7FCD21808BF0003B6F2F /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57B7FCC21808BF0003B6F2F /* ARViewController.xib */; };
+		F5AD9FEE2180C511002EC883 /* holo.shader in Resources */ = {isa = PBXBuildFile; fileRef = F5AD9FED2180C344002EC883 /* holo.shader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B64BD0FEDA2BCBFD172DFB91 /* Pods-Mario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mario.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mario/Pods-Mario.debug.xcconfig"; sourceTree = "<group>"; };
+		C3FBB3C16E52CB613FFFC0CE /* libPods-Mario.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mario.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A068EAC46268B46476EDBE /* Pods-Mario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mario.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mario/Pods-Mario.release.xcconfig"; sourceTree = "<group>"; };
 		F57B7FAF21808B44003B6F2F /* Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57B7FB221808B44003B6F2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F57B7FB321808B44003B6F2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F57B7FB521808B44003B6F2F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		F57B7FB721808B44003B6F2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F57B7FB821808B44003B6F2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F57B7FBB21808B44003B6F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F57B7FB721808B44003B6F2F /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		F57B7FB821808B44003B6F2F /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		F57B7FBD21808B45003B6F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57B7FC021808B45003B6F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F57B7FC221808B45003B6F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F57B7FC321808B45003B6F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F57B7FCC21808BF0003B6F2F /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
+		F5AD9FED2180C344002EC883 /* holo.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = holo.shader; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F991CE6DDF1BBA8E4E73632 /* libPods-Mario.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90D59B79D2E37F18D13ACC0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3FBB3C16E52CB613FFFC0CE /* libPods-Mario.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC290F9C97767FD53A2D413E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64BD0FEDA2BCBFD172DFB91 /* Pods-Mario.debug.xcconfig */,
+				D6A068EAC46268B46476EDBE /* Pods-Mario.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F57B7FA621808B44003B6F2F = {
 			isa = PBXGroup;
 			children = (
 				F57B7FB121808B44003B6F2F /* Mario */,
 				F57B7FB021808B44003B6F2F /* Products */,
+				DC290F9C97767FD53A2D413E /* Pods */,
+				90D59B79D2E37F18D13ACC0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,18 +86,35 @@
 		F57B7FB121808B44003B6F2F /* Mario */ = {
 			isa = PBXGroup;
 			children = (
+				F57B7FCA21808BAA003B6F2F /* ViewControllers */,
 				F57B7FB221808B44003B6F2F /* AppDelegate.h */,
 				F57B7FB321808B44003B6F2F /* AppDelegate.m */,
 				F57B7FB521808B44003B6F2F /* art.scnassets */,
-				F57B7FB721808B44003B6F2F /* ViewController.h */,
-				F57B7FB821808B44003B6F2F /* ViewController.m */,
-				F57B7FBA21808B44003B6F2F /* Main.storyboard */,
 				F57B7FBD21808B45003B6F2F /* Assets.xcassets */,
+				F5AD9FED2180C344002EC883 /* holo.shader */,
 				F57B7FBF21808B45003B6F2F /* LaunchScreen.storyboard */,
 				F57B7FC221808B45003B6F2F /* Info.plist */,
 				F57B7FC321808B45003B6F2F /* main.m */,
 			);
 			path = Mario;
+			sourceTree = "<group>";
+		};
+		F57B7FCA21808BAA003B6F2F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F57B7FCB21808BB3003B6F2F /* ARViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F57B7FCB21808BB3003B6F2F /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F57B7FB721808B44003B6F2F /* ARViewController.h */,
+				F57B7FB821808B44003B6F2F /* ARViewController.m */,
+				F57B7FCC21808BF0003B6F2F /* ARViewController.xib */,
+			);
+			path = ARViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F57B7FC721808B45003B6F2F /* Build configuration list for PBXNativeTarget "Mario" */;
 			buildPhases = (
+				FD63C72BD3C1B6B80F344CB6 /* [CP] Check Pods Manifest.lock */,
 				F57B7FAB21808B44003B6F2F /* Sources */,
 				F57B7FAC21808B44003B6F2F /* Frameworks */,
 				F57B7FAD21808B44003B6F2F /* Resources */,
+				F8ED3B9DB85CBD9CFA7AB5D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,21 +176,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5AD9FEE2180C511002EC883 /* holo.shader in Resources */,
 				F57B7FB621808B44003B6F2F /* art.scnassets in Resources */,
 				F57B7FC121808B45003B6F2F /* LaunchScreen.storyboard in Resources */,
 				F57B7FBE21808B45003B6F2F /* Assets.xcassets in Resources */,
-				F57B7FBC21808B44003B6F2F /* Main.storyboard in Resources */,
+				F57B7FCD21808BF0003B6F2F /* ARViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8ED3B9DB85CBD9CFA7AB5D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mario/Pods-Mario-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mario/Pods-Mario-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD63C72BD3C1B6B80F344CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mario-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F57B7FAB21808B44003B6F2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57B7FB921808B44003B6F2F /* ViewController.m in Sources */,
+				F57B7FB921808B44003B6F2F /* ARViewController.m in Sources */,
 				F57B7FC421808B45003B6F2F /* main.m in Sources */,
 				F57B7FB421808B44003B6F2F /* AppDelegate.m in Sources */,
 			);
@@ -154,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F57B7FBA21808B44003B6F2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F57B7FBB21808B44003B6F2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F57B7FBF21808B45003B6F2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +372,7 @@
 		};
 		F57B7FC821808B45003B6F2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64BD0FEDA2BCBFD172DFB91 /* Pods-Mario.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +390,7 @@
 		};
 		F57B7FC921808B45003B6F2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A068EAC46268B46476EDBE /* Pods-Mario.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
